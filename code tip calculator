@@ -1,0 +1,11 @@
+print("welcome to OMSSC")
+bill =float(input("What is yout total bill ? "))
+tip = int(input("How much could you like to give tip ? 10, 20 ,30"))
+people =int(input("How many people want to share the bill? "))
+tip_as_percent = bill/100
+total_tip_amount = bill*tip_as_percent
+bill_per_person = total_tip_amount/tip
+final_amount =round(bill_per_person,2)
+final_amount = "{:.2f}".format(bill_per_person)
+print(f"each perosn should pay: {final_amount}") 
+
