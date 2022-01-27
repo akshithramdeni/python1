@@ -1,4 +1,4 @@
-print("welcome to OMSSC")
+print("welcome to Tip cals")
 bill =float(input("What is yout total bill ? "))
 tip = int(input("How much could you like to give tip ? 10, 20 ,30"))
 people =int(input("How many people want to share the bill? "))
